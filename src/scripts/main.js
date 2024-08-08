@@ -22,7 +22,7 @@ const contaAsHoras = setInterval( () => {
 
 
     const results = document.getElementById("results")
-    if(segundosEvent > 0) {
+    if(distanciaEvento  > 0) {
         results.innerHTML = `${diasAteEvento}d ${horasEvent}h ${minutosEvent}m ${segundosEvent}s`;
 
     }else {
